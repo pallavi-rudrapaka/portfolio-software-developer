@@ -1,14 +1,19 @@
 import { Code, Palette, Zap } from 'lucide-react';
-
 const AboutSection = () => {
-  const skills = [
-    { icon: Code, label: 'Clean Code', color: 'primary' },
-    { icon: Palette, label: 'Creative Design', color: 'secondary' },
-    { icon: Zap, label: 'Fast Learning', color: 'primary' },
-  ];
-
-  return (
-    <section id="about" className="relative py-32 overflow-hidden">
+  const skills = [{
+    icon: Code,
+    label: 'Clean Code',
+    color: 'primary'
+  }, {
+    icon: Palette,
+    label: 'Creative Design',
+    color: 'secondary'
+  }, {
+    icon: Zap,
+    label: 'Fast Learning',
+    color: 'primary'
+  }];
+  return <section id="about" className="relative py-32 overflow-hidden">
       {/* Section background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
 
@@ -44,10 +49,15 @@ const AboutSection = () => {
               </div>
 
               {/* Orbiting dots */}
-              <div className="absolute inset-0 animate-spin-slow" style={{ animationDuration: '15s' }}>
+              <div className="absolute inset-0 animate-spin-slow" style={{
+              animationDuration: '15s'
+            }}>
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-primary shadow-[0_0_10px_hsl(var(--primary))]" />
               </div>
-              <div className="absolute inset-0 animate-spin-slow" style={{ animationDuration: '20s', animationDirection: 'reverse' }}>
+              <div className="absolute inset-0 animate-spin-slow" style={{
+              animationDuration: '20s',
+              animationDirection: 'reverse'
+            }}>
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-secondary shadow-[0_0_10px_hsl(var(--secondary))]" />
               </div>
             </div>
@@ -55,14 +65,11 @@ const AboutSection = () => {
 
           {/* Text Content */}
           <div className="space-y-6">
-            <p className="font-body text-lg md:text-xl text-foreground/90 leading-relaxed">
-              I'm <span className="text-primary font-semibold">Rudrapaka VVLD Pallavi</span>, 
+            <p className="font-body text-lg md:text-xl text-foreground/90 leading-relaxed">I'm Rudrapaka VVLD Pallavi, an aspiring Software Developer Engineer.<span className="text-primary font-semibold">Rudrapaka VVLD Pallavi</span>, 
               an aspiring Software Developer Engineer with a strong interest in front-end web development.
             </p>
             
-            <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I love turning creative ideas into interactive, user-friendly experiences using 
-              <span className="text-primary"> HTML</span>, 
+            <p className="font-body text-lg text-muted-foreground leading-relaxed">I love turning creative ideas into interactive, user-friendly experiences. I'm driven by curiosity, continuous learning, and a passion for futuristic web design.<span className="text-primary"> HTML</span>, 
               <span className="text-secondary"> CSS</span>, and 
               <span className="text-primary"> JavaScript</span>. 
               I'm driven by curiosity, continuous learning, and a passion for futuristic web design.
@@ -70,24 +77,16 @@ const AboutSection = () => {
 
             {/* Skills */}
             <div className="flex flex-wrap gap-4 pt-6">
-              {skills.map((skill, index) => (
-                <div
-                  key={skill.label}
-                  className="flex items-center gap-3 px-5 py-3 glass-panel rounded-xl hover:border-primary/50 transition-all duration-300 group"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <skill.icon 
-                    className={`w-5 h-5 ${skill.color === 'primary' ? 'text-primary' : 'text-secondary'} group-hover:scale-110 transition-transform`} 
-                  />
+              {skills.map((skill, index) => <div key={skill.label} className="flex items-center gap-3 px-5 py-3 glass-panel rounded-xl hover:border-primary/50 transition-all duration-300 group" style={{
+              animationDelay: `${index * 0.1}s`
+            }}>
+                  <skill.icon className={`w-5 h-5 ${skill.color === 'primary' ? 'text-primary' : 'text-secondary'} group-hover:scale-110 transition-transform`} />
                   <span className="font-body text-sm text-foreground/80">{skill.label}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
