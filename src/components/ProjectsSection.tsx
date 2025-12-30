@@ -9,11 +9,10 @@ const projects = [
     liveUrl: 'https://pallavi-rudrapaka.github.io/Frontend-1/',
   },
   {
-    title: 'Project Name Two',
-    description: 'A brief description of your second project. Highlight the main functionality and any interesting technical challenges you overcame.',
-    tools: ['JavaScript', 'Node.js', 'MongoDB'],
-    githubUrl: '#',
-    liveUrl: '#',
+    title: 'Sales Performance Dashboard',
+    description: 'Built an interactive dashboard using Power BI to visualize company sales and performance metrics.',
+    tools: ['SQL', 'Excel', 'Power BI'],
+    githubUrl: 'https://github.com/pallavi-rudrapaka/shopify-sales-powerbi/tree/main',
   },
   {
     title: 'Project Name Three',
