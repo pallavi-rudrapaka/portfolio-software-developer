@@ -68,9 +68,8 @@ const AboutSection = () => {
             <p className="font-body text-lg md:text-xl text-foreground/90 leading-relaxed"><span className="text-primary font-semibold">Rudrapaka VVLD Pallavi</span></p>
             
             <p className="font-body text-lg text-muted-foreground leading-relaxed">I love turning creative ideas into interactive, user-friendly experiences. I'm driven by curiosity, continuous learning, and a passion for futuristic web design.<span className="text-primary"> HTML</span>, 
-              <span className="text-secondary"> CSS</span>, and 
-              <span className="text-primary"> JavaScript</span>. 
-              I'm driven by curiosity, continuous learning, and a passion for futuristic web design.
+              <span className="text-secondary"> CSS</span>​ and   
+              <span className="text-primary"> JavaScript</span>​             
             </p>
 
             {/* Skills */}
