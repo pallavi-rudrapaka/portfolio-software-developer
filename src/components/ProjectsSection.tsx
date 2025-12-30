@@ -3,8 +3,8 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     title: 'Frontend-1',
-    description: 'A brief description of your first project. Explain what problem it solves, the key features, and what makes it unique or interesting.',
-    tools: ['React', 'TypeScript', 'Tailwind CSS'],
+    description: 'Developed a responsive e-commerce web app with product listings, cart functionality, and dynamic product pages.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
     githubUrl: 'https://github.com/pallavi-rudrapaka/Frontend-1',
     liveUrl: 'https://pallavi-rudrapaka.github.io/Frontend-1/',
   },
