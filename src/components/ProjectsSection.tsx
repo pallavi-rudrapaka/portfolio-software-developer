@@ -6,7 +6,7 @@ const projects = [
     description: 'A brief description of your first project. Explain what problem it solves, the key features, and what makes it unique or interesting.',
     tools: ['React', 'TypeScript', 'Tailwind CSS'],
     githubUrl: 'https://github.com/pallavi-rudrapaka/Frontend-1',
-    liveUrl: '#',
+    liveUrl: 'https://pallavi-rudrapaka.github.io/Frontend-1/',
   },
   {
     title: 'Project Name Two',
