@@ -2,10 +2,10 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Project Name One',
+    title: 'Frontend-1',
     description: 'A brief description of your first project. Explain what problem it solves, the key features, and what makes it unique or interesting.',
     tools: ['React', 'TypeScript', 'Tailwind CSS'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/pallavi-rudrapaka/Frontend-1',
     liveUrl: '#',
   },
   {
