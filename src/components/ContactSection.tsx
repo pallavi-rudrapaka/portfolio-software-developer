@@ -5,22 +5,22 @@ const contactLinks = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 'pallavirudrapaka3637@gmail.com',
+    href: 'mailto:pallavirudrapaka3637@gmail.com',
     color: 'primary',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: '/in/yourprofile',
-    href: 'https://linkedin.com/in/yourprofile',
+    value: 'pallavi-rudrapaka',
+    href: 'https://www.linkedin.com/in/pallavi-rudrapaka-19b964381/',
     color: 'secondary',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: '@yourusername',
-    href: 'https://github.com/yourusername',
+    value: '@pallavi-rudrapaka',
+    href: 'https://github.com/pallavi-rudrapaka',
     color: 'primary',
   },
 ];
@@ -75,7 +75,7 @@ const ContactSection = () => {
             asChild
             className="group"
           >
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:pallavirudrapaka3637@gmail.com">
               <Send className="w-5 h-5 mr-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               Get in Touch
             </a>
