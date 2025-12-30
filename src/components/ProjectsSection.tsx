@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     title: 'Frontend-1',
-    description: 'Developed a responsive e-commerce web app with product listings, cart functionality, and dynamic product pages.',
+    description: 'Developed a responsive e-commerce web app with product listings, cart functionality, and dynamic product pages using HTML, CSS, and JavaScript.',
     tools: ['HTML', 'CSS', 'JavaScript'],
     githubUrl: 'https://github.com/pallavi-rudrapaka/Frontend-1',
     liveUrl: 'https://pallavi-rudrapaka.github.io/Frontend-1/',
